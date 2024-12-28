@@ -7,72 +7,91 @@
   <title>Digi Live Hub</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Custom styles */
+    /* Custom styles for futuristic look */
     .gradient-bg {
-      background: linear-gradient(90deg, #007BFF 0%, #00D1A0 100%);
+      background: linear-gradient(90deg, #0D47A1, #00C4CC);
+    }
+    .neon-text {
+      color: #00D1A0;
+      text-shadow: 0 0 8px #00D1A0, 0 0 16px #00D1A0;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
     }
   </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-900 text-gray-300">
   <!-- Header Section -->
   <header class="gradient-bg text-white py-10">
     <div class="container mx-auto text-center">
-      <h1 class="text-4xl font-bold">Digi Live Hub</h1>
-      <p class="mt-4 text-lg">Bridging Life and Technology</p>
+      <h1 class="text-5xl font-bold neon-text">Digi Live Hub</h1>
+      <p class="mt-4 text-xl">Innovating Connections, Simplifying Life</p>
     </div>
   </header>
 
   <!-- About Section -->
-  <section class="py-12">
+  <section class="py-16">
     <div class="container mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-4">What is Digi Live Hub?</h2>
-      <p class="text-lg max-w-2xl mx-auto">
-        Digi Live Hub is an innovative project leveraging cutting-edge AI technology to create solutions for personal automation, hybrid code, and more. Explore our MVP and join the future of connected living.
+      <h2 class="text-3xl font-bold mb-6 text-white">Welcome to the Future</h2>
+      <p class="text-lg max-w-3xl mx-auto">
+        Digi Live Hub is your gateway to a seamlessly connected future. 
+        With cutting-edge approaches in automation, personalization, and hybrid solutions, 
+        we empower individuals and businesses to redefine possibilities.
       </p>
     </div>
   </section>
 
   <!-- Features Section -->
-  <section class="py-12 bg-gray-200">
+  <section class="py-16 bg-gray-800">
     <div class="container mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-6">Our Key Features</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="p-6 bg-white shadow rounded">
-          <h3 class="text-xl font-semibold mb-2">Automation</h3>
-          <p>Streamline your life with smart workflows using n8n.io.</p>
+      <h2 class="text-3xl font-bold mb-6 text-white">Explore Our Vision</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="p-6 card rounded shadow-lg">
+          <h3 class="text-xl font-semibold text-white mb-2">Smart Automation</h3>
+          <p>
+            Simplify daily tasks with intelligent workflows and streamlined systems.
+          </p>
         </div>
-        <div class="p-6 bg-white shadow rounded">
-          <h3 class="text-xl font-semibold mb-2">Hybrid Code</h3>
-          <p>Combine low-code and custom solutions for ultimate flexibility.</p>
+        <div class="p-6 card rounded shadow-lg">
+          <h3 class="text-xl font-semibold text-white mb-2">Seamless Integration</h3>
+          <p>
+            Connect your life and technology effortlessly with adaptable solutions.
+          </p>
         </div>
-        <div class="p-6 bg-white shadow rounded">
-          <h3 class="text-xl font-semibold mb-2">Personalization</h3>
-          <p>Tailor your experience with a focus on individual needs.</p>
+        <div class="p-6 card rounded shadow-lg">
+          <h3 class="text-xl font-semibold text-white mb-2">Future-Ready Tools</h3>
+          <p>
+            Access tools designed to grow with you, ensuring sustainability and innovation.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Call-to-Action Section -->
-  <section class="py-12">
+  <section class="py-16 gradient-bg">
     <div class="container mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-4">Get Started</h2>
-      <p class="mb-6">Explore the Digi Live Hub on GitHub or read our blog for insights.</p>
+      <h2 class="text-3xl font-bold mb-4 text-white">Join the Revolution</h2>
+      <p class="mb-6 text-lg text-gray-200">
+        Be part of the Digi Live Hub journey and discover how technology can enhance your world.
+      </p>
       <div class="flex justify-center space-x-4">
-        <a href="https://github.com/DigiLifeHub" class="px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600">
-          GitHub
+        <a href="https://github.com/DigiLifeHub" class="px-8 py-4 bg-white text-gray-900 rounded shadow hover:bg-gray-200">
+          Explore GitHub
         </a>
-        <a href="https://tomashaubert.cz/" class="px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600">
-          Blog
+        <a href="https://tomashaubert.cz/technologie/digilifehub" class="px-8 py-4 bg-gray-900 text-white rounded shadow hover:bg-gray-800">
+          Read Our Blog
         </a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="py-6 bg-gray-800 text-white">
+  <footer class="py-8 bg-gray-900 text-gray-400">
     <div class="container mx-auto text-center">
-      <p>&copy; 2024 Digi Live Hub. All rights reserved.</p>
+      <p>&copy; 2024 Digi Live Hub. Innovating Tomorrow.</p>
     </div>
   </footer>
 </body>
