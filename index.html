@@ -7,90 +7,76 @@
   <title>Digi Live Hub</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Custom styles for futuristic look */
+    /* Custom styles for enhanced futuristic look */
     .gradient-bg {
-      background: linear-gradient(90deg, #0D47A1, #00C4CC);
+      background: linear-gradient(135deg, #0D47A1, #00C4CC);
     }
-    .neon-text {
-      color: #00D1A0;
-      text-shadow: 0 0 8px #00D1A0, 0 0 16px #00D1A0;
-    }
-    .card {
+    .glass-card {
       background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(15px);
       border: 1px solid rgba(255, 255, 255, 0.2);
     }
   </style>
 </head>
 <body class="bg-gray-900 text-gray-300">
-  <!-- Header Section -->
-  <header class="gradient-bg text-white py-10">
+  <!-- Hero Section -->
+  <section class="gradient-bg text-white py-20">
     <div class="container mx-auto text-center">
-      <h1 class="text-5xl font-bold neon-text">Digi Live Hub</h1>
-      <p class="mt-4 text-xl">Innovating Connections, Simplifying Life</p>
+      <h1 class="text-5xl font-extrabold">Digi Live Hub</h1>
+      <p class="mt-6 text-lg">Bridging Life and Technology</p>
+      <div class="mt-8">
+        <a href="#features" class="px-8 py-3 bg-white text-gray-900 rounded shadow hover:bg-gray-200">Discover More</a>
+      </div>
     </div>
-  </header>
+  </section>
 
   <!-- About Section -->
   <section class="py-16">
     <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6 text-white">Welcome to the Future</h2>
-      <p class="text-lg max-w-3xl mx-auto">
-        Digi Live Hub is your gateway to a seamlessly connected future. 
-        With cutting-edge approaches in automation, personalization, and hybrid solutions, 
-        we empower individuals and businesses to redefine possibilities.
+      <h2 class="text-3xl font-bold text-white">Welcome to the Future</h2>
+      <p class="text-lg mt-4 max-w-2xl mx-auto">
+        Digi Live Hub empowers individuals and businesses through innovative technology, seamless automation, and tailored solutions for a connected world.
       </p>
     </div>
   </section>
 
   <!-- Features Section -->
-  <section class="py-16 bg-gray-800">
-    <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6 text-white">Explore Our Vision</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div class="p-6 card rounded shadow-lg">
-          <h3 class="text-xl font-semibold text-white mb-2">Smart Automation</h3>
-          <p>
-            Simplify daily tasks with intelligent workflows and streamlined systems.
-          </p>
+  <section id="features" class="py-16 bg-gray-800">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-white text-center mb-10">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Feature Card -->
+        <div class="p-6 glass-card rounded text-center">
+          <h3 class="text-xl font-semibold text-white mb-4">Smart Automation</h3>
+          <p>Intelligently optimize your workflows and daily routines.</p>
         </div>
-        <div class="p-6 card rounded shadow-lg">
-          <h3 class="text-xl font-semibold text-white mb-2">Seamless Integration</h3>
-          <p>
-            Connect your life and technology effortlessly with adaptable solutions.
-          </p>
+        <div class="p-6 glass-card rounded text-center">
+          <h3 class="text-xl font-semibold text-white mb-4">Seamless Integration</h3>
+          <p>Connect systems effortlessly for a unified experience.</p>
         </div>
-        <div class="p-6 card rounded shadow-lg">
-          <h3 class="text-xl font-semibold text-white mb-2">Future-Ready Tools</h3>
-          <p>
-            Access tools designed to grow with you, ensuring sustainability and innovation.
-          </p>
+        <div class="p-6 glass-card rounded text-center">
+          <h3 class="text-xl font-semibold text-white mb-4">Personalized Solutions</h3>
+          <p>Tailored tools to adapt and grow with your needs.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Call-to-Action Section -->
-  <section class="py-16 gradient-bg">
+  <section class="py-16 gradient-bg text-white">
     <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4 text-white">Join the Revolution</h2>
-      <p class="mb-6 text-lg text-gray-200">
-        Be part of the Digi Live Hub journey and discover how technology can enhance your world.
-      </p>
-      <div class="flex justify-center space-x-4">
-        <a href="https://github.com/DigiLifeHub" class="px-8 py-4 bg-white text-gray-900 rounded shadow hover:bg-gray-200">
-          Explore GitHub
-        </a>
-        <a href="https://tomashaubert.cz/technologie/digilifehub" class="px-8 py-4 bg-gray-900 text-white rounded shadow hover:bg-gray-800">
-          Read Our Blog
-        </a>
+      <h2 class="text-3xl font-bold mb-6">Join the Revolution</h2>
+      <p class="text-lg mb-6">Explore Digi Live Hub and redefine your connection to technology.</p>
+      <div>
+        <a href="https://github.com/DigiLifeHub" class="px-8 py-4 bg-gray-900 text-white rounded shadow hover:bg-gray-800">GitHub</a>
+        <a href="https://tomashaubert.cz/technologie/digilifehub" class="px-8 py-4 bg-white text-gray-900 rounded shadow hover:bg-gray-200 ml-4">Blog</a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="py-8 bg-gray-900 text-gray-400">
-    <div class="container mx-auto text-center">
+  <footer class="py-8 bg-gray-900 text-gray-400 text-center">
+    <div class="container mx-auto">
       <p>&copy; 2024 Digi Live Hub. Innovating Tomorrow.</p>
     </div>
   </footer>
